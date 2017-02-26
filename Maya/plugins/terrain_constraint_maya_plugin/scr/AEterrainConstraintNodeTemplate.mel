@@ -1,0 +1,60 @@
+//-
+// ==========================================================================
+//
+//
+//
+global string $i;
+
+global proc AEterrainConstraintNodeTemplate(string $nodeName)
+{
+   editorTemplate -beginScrollLayout;
+   editorTemplate -beginLayout "Terrain Adapt Attributes" -collapse false;
+  // editorTemplate -suppress "codePath";
+   
+   catchQuiet(`editorTemplate -callCustom "AEinputNew \"Input Mesh\"" "AEinputReplace \"Input Mesh\"" "inMesh"`);
+   editorTemplate -addControl "position";
+   editorTemplate -addControl "normal";
+   
+   editorTemplate -endLayout;
+   AEabstractBaseCreateTemplate $nodeName;
+
+   editorTemplate -addExtraControls;
+  // editorTemplate -callCustom "radioButtonControl"  "codePathControlReplace" "codePath";
+ //  editorTemplate -addControl "swFilter";
+   editorTemplate -endScrollLayout;
+}
+
+
+global proc radioButtonControl( string $attrName )
+{
+	// Maya the "quick set" control for the scale attribute
+	global string $i;
+	global string $codePGrp="codePGrp";
+
+	 $i=`radioButtonGrp 
+		 -label "CodePath:" 
+		-numberOfRadioButtons 2
+		-label1 "Software"
+		-data1 0
+		-label2 "OpenGl"
+		-data2 1
+		//-select 0
+		$codePGrp`;
+	//print ($attrName + " codePGrp:" + $i);
+	
+	 connectControl $codePGrp $attrName;
+}
+
+global proc codePathControlReplace( string $attrName )
+{
+	global string $codePGrp;
+    catch(`connectControl $codePGrp $attrName`);
+}
+
+global proc deactivateRBControl()
+{
+   // Install the connection between the radioButtonGrp and the actual attribute
+	global string $codePGrp;
+	if (size( $codePGrp)>0)
+	    catch(`radioButtonGrp -e -enable 0 $codePGrp`);
+}

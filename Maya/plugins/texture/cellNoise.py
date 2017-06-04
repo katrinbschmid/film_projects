@@ -12,8 +12,10 @@
 #  * Min and max value to set color range
 
 import sys, math
+
 import maya.OpenMaya as OpenMaya
 import maya.OpenMayaMPx as OpenMayaMPx
+
 import Voronoi #links to plattform dependent Voronoi.pyc library
 
 kPluginNodeName = "cellNoiseTexture"
@@ -181,4 +183,4 @@ def uninitializePlugin(mobject):
     except:
         sys.stderr.write("Failed to deregister node: %s" % kPluginNodeName)
     raise
-    
+

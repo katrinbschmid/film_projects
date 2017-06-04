@@ -5,7 +5,6 @@
 #include <sys/time.h>
 
 #include "../include/timer.h"
-
 #include "utils.h"
 
 using namespace std;

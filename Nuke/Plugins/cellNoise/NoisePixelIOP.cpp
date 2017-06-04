@@ -3,21 +3,21 @@
  * @author  katrin schmid <info@lo-motion.de>
  * @version 0.2.0
  *
- * 
+ *
  * @section DESCRIPTION
- * \brief 
- * Simple cell noise generator node for nuke, tested with v 5.2 only 
+ * \brief
+ * Simple cell noise generator node for nuke, tested with v 5.2 only
  * Has random, grid and heaxgon mode and cell count and range values.
  *
  * To install: copy to Nuke\plugins directory, load from "etc" plugins menu
  * 0.2.0 Fixed some issues with format
- * 0.1.0 Initial release 
+ * 0.1.0 Initial release
 */
 
 #ifdef debug
 #undef debug
 #endif
-//#define debug 
+//#define debug
 
 static const char* const CLASS = "Cellnoise";
 static const char* const HELP = "Generates cell noise";
@@ -52,7 +52,7 @@ inline float remap(float min, float max, float value)
 class Cellnoise : public PixelIop
 {
     Voronoi m_diagram;
- 
+
 public:
     Channel m_channel;
     int m_Nmode, m_numc;
@@ -60,7 +60,7 @@ public:
     float m_min, m_max;
 
     Cellnoise(Node* node) : PixelIop(node)
-    { 
+    {
    // default values
         m_min = 0.f;
         m_max = 1.f;
@@ -73,7 +73,7 @@ public:
     {
         Obsolete_knob(f, "proxy_format", 0);
         Input_Channel_knob(f, &m_channel, 1, 0, "m_channel");
-    
+
         Knob* e = Enumeration_knob(f, &m_Nmode, _modeList, "mode_selector");
         Int_knob(f, &m_numc, "cells" );
         Float_knob(f, &m_max, "range max" );
@@ -87,13 +87,13 @@ public:
         info_.channels(Mask_RGBA);
         set_out_channels(Mask_RGBA);
     }
-  
+
     void in_channels(int input, ChannelSet& mask) const
     {
    // mask is unchanged
     }
 
-    void pixel_engine(const Row& in, int y, int xx, int r, 
+    void pixel_engine(const Row& in, int y, int xx, int r,
           ChannelMask channels, Row& row)
     {
        Color resultColor;
@@ -135,3 +135,4 @@ static Iop* constructor(Node* node) { return new NukeWrapper(new Cellnoise(node)
 
 //static Iop* constructor(Node* node) { return new Cellnoise(node); }
 const Iop::Description Cellnoise::desc(CLASS, "Image/CellNoise", constructor);
+

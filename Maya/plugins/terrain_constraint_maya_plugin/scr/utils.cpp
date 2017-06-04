@@ -24,6 +24,7 @@ static const char * s_LogFile;
 static const char * s_LogFunc;
 static int s_LogLevel = DEFAULT_LOG_LEVEL;
 
+
 void __Log(const char * a_Str)
 {
    MGlobal::displayWarning(MString(a_Str));

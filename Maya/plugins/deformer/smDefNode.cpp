@@ -3,16 +3,16 @@
  * @author  katrin schmid <info@lo-motion.de>
  * @version 0.2.0
  *
- * 
+ *
  * @section DESCRIPTION
- * \brief 
+ * \brief
  * A smooth deformer that averages vertices based on a paintable vertex weights.
  * Option to keep border edges at position.
  *
  * To install: copy to maya bin\plugins directory or anywhere in plugin path
- * Create by "deformer -type smoothDeform" mel, paint bvetrex attributes in 
- * Modify > Paint attributes tool. 
- 
+ * Create by "deformer -type smoothDeform" mel, paint bvetrex attributes in
+ * Modify > Paint attributes tool.
+
  *
  * */
 
@@ -40,7 +40,6 @@
 #include <maya/MDataBlock.h>
 #include <maya/MDataHandle.h>
 #include <maya/MGlobal.h>
-
 #include <maya/MFnDependencyNode.h>
 #include <maya/MItDependencyGraph.h>
 #include <maya/MObject.h>
@@ -48,10 +47,9 @@
 #include <maya/MIOStream.h>
 #include <maya/MGlobal.h>
 #include <maya/MIOStream.h>
-#include <maya/MTypeId.h> 
+#include <maya/MTypeId.h>
 #include <maya/MFnNumericAttribute.h>
 #include <maya/MFnTypedAttribute.h>
-
 #include <maya/MItMeshVertex.h>
 #include <maya/MItMeshPolygon.h>
 #include <maya/MFnMesh.h>
@@ -87,8 +85,8 @@ void getAverageVector(std::vector<MVector> directionVectors,
     avZ = avZ / float (neighboursSize);
 }
 
-   
-smoothDeformer::smoothDeformer() 
+
+smoothDeformer::smoothDeformer()
 {}
 
 smoothDeformer::~smoothDeformer()
@@ -115,7 +113,7 @@ MStatus smoothDeformer::initialize()
     nAttr.setDefault(0);
     nAttr.setKeyable(true);
     addAttribute(aIterations);
-   
+
     aKeepBorder = nAttr.create("keepBorders", "kbe", MFnNumericData::kBoolean, true);
     MAKE_INPUT(nAttr);
     nAttr.setDefault(1);
@@ -183,7 +181,7 @@ MStatus smoothDeformer::deform(MDataBlock& block, MItGeometry& iter,
     {
         int pointCount = iterMesh.count();
         for (int z = 0 ; z < smoothIterations; z++)
-        { 
+        {
             meshFn.getPoints (pointArray, MSpace::kObject);
             iterMesh.reset();
 
@@ -210,7 +208,7 @@ MStatus smoothDeformer::deform(MDataBlock& block, MItGeometry& iter,
 #ifdef debug
                 std::cout << g <<" w: " << w << " " << (w<= 0.001) << std::endl;
 #endif
-        
+
                 if (w < 0.001)// clamp weights
                     outPoints.append(objPos);
                 else
@@ -219,7 +217,7 @@ MStatus smoothDeformer::deform(MDataBlock& block, MItGeometry& iter,
                     directionVectors.clear();
                     iterMesh.getConnectedVertices(condPoints);//indices of the vertices surrounding the current vertex
                     avLength  = 0.f;
-                    
+
                     for (int i = 0; i < condPoints.length(); i++)
                     {
                         condPointPos = pointArray[condPoints[i]];

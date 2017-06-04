@@ -5,6 +5,7 @@ import subprocess
 
 import maya.cmds 
 import maya.OpenMayaUI 
+
 import sip
 from PyQt4 import QtGui, QtCore, uic
 

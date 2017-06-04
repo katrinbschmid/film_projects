@@ -4,13 +4,11 @@
 #include <maya/MTypeId.h>
 #include <maya/MDataBlock.h>
 #include <maya/MDataHandle.h>
-
 #include <maya/MFnTypedAttribute.h>
 #include <maya/MFnNumericAttribute.h>
 #include <maya/MFnEnumAttribute.h>
 #include <maya/MFnMatrixAttribute.h>
 #include <maya/MFnMatrixData.h>
-
 #include <maya/MDagPath.h>
 #include <maya/MPlug.h>
 #include <maya/MPoint.h>
@@ -75,5 +73,5 @@ class terrainConstraintNode: public MPxNode
       bool m_swFirstRun;
       softwareLookUp m_swLookUp;
       float m_lastFrame;
-
 };
+

@@ -1,10 +1,9 @@
 /**
- * Bounding box calculation and ray intersection
- */
+* Bounding box calculation and ray intersection
+*/
 #include <maya/MFnMesh.h>
 #include <maya/MFloatPoint.h>
 #include <maya/MFloatPointArray.h>
-
 #include <maya/MFloatVector.h>
 #include <maya/MFloatArray.h>
 #include <maya/MIntArray.h>
@@ -26,6 +25,9 @@ softwareLookUp::~softwareLookUp()
    m_bbSetup = 0;
 }
 
+/** Brief description which ends at this dot. Details follow
+ *  here.
+ */
 MStatus softwareLookUp::rayTraceLookUp(const MPlug & a_Meshes, float X,
       float & Y, float Z, unsigned int intersection)
 {
@@ -50,10 +52,12 @@ MStatus softwareLookUp::rayTraceLookUp(const MPlug & a_Meshes, float X,
       if (m_meshObjects.length() != m_accelParamsObjects.size()
             || a_Meshes.numElements() != m_meshObjects.length()
             || a_Meshes.numElements() != m_accelParamsObjects.size())
+      {
          setBoundingBox(a_Meshes);
-
+      }
       LOG(DEBG,
-            ("%d: %d a_Meshes.numElements() Y, %d ", a_Meshes.numElements(), m_accelParamsObjects.size(), m_meshObjects.length()));
+            ("%d: %d a_Meshes.numElements() Y, %d ", a_Meshes.numElements(),
+                  m_accelParamsObjects.size(), m_meshObjects.length()));
 
       for (int i = 0; i < m_meshObjects.length(); i++)
       {
@@ -71,7 +75,7 @@ MStatus softwareLookUp::rayTraceLookUp(const MPlug & a_Meshes, float X,
             {
                bool is_im = m_fnMesh.isIntermediateObject(&status);
                LOG(DEBG,
-                     ("%d rayTraceLookUp: setBoundingBox( is intermediate object: ", is_im));
+               ("%d rayTraceLookUp: setBoundingBox( is intermediate object: ", is_im));
                bIntersection = m_fnMesh.closestIntersection(pSource, m_fvRayDir,
                      NULL, NULL, false, MSpace::kWorld, (float) 9999, false,
                      &(*mVectorIterator), hitPoint, &fHitRayParam, &nHitFace,
@@ -99,12 +103,16 @@ MStatus softwareLookUp::rayTraceLookUp(const MPlug & a_Meshes, float X,
    return status;
 }
 
-// in scene bounding box
+/** Brief   in scene bounding box from meshes
+ *
+ */
 bool softwareLookUp::bbFromMesh(const MPlug & a_Meshes)
 {
    MStatus status = MStatus::kSuccess;
    if (a_Meshes.numElements() == 0)
+   {
       return false;
+   }
 
    MPointArray triVerts;
    MPointArray vertexList;
@@ -114,7 +122,7 @@ bool softwareLookUp::bbFromMesh(const MPlug & a_Meshes)
 
    m_BBox = MBoundingBox();
 
-   for (unsigned int j = 0; j < a_Meshes.numElements(); ++j)
+   for (unsigned int j = 0; j < a_Meshes.numElements(); j++)
    {
       elementPlug = a_Meshes[j];
       if (elementPlug.isConnected()) // ignore deconnected mesh plugs
@@ -139,6 +147,9 @@ bool softwareLookUp::bbFromMesh(const MPlug & a_Meshes)
    return true;
 }
 
+/** Brief description set bounding boxes
+ *
+ */
 bool softwareLookUp::setBoundingBox(const MPlug & a_Meshes)
 {
    MStatus status = MStatus::kSuccess;
@@ -151,14 +162,15 @@ bool softwareLookUp::setBoundingBox(const MPlug & a_Meshes)
          || NearZero(m_BBox.depth()))
    {
       LOG(WARN,
-            ("NearZero bounding box: %9.5f, %9.5f, %9.5f, ", m_BBox.width(), m_BBox.height(), m_BBox.depth()));
+            ("NearZero bounding box: %9.5f, %9.5f, %9.5f, ", m_BBox.width(),
+                  m_BBox.height(), m_BBox.depth()));
       MPoint center = m_BBox.center();
       m_BBox.expand(center + MPoint(ENLARGE, ENLARGE, ENLARGE));
    }
 
    m_bbSetup = 1;
    // setup for raytracing
-   for (unsigned int i = 0; i < a_Meshes.numElements(); ++i) //for each mesh
+   for (unsigned int i = 0; i < a_Meshes.numElements(); i++) //for each mesh
    {
       if (a_Meshes[i].isConnected())
       {
@@ -181,3 +193,4 @@ bool softwareLookUp::setBoundingBox(const MPlug & a_Meshes)
 
    return 1;
 }
+

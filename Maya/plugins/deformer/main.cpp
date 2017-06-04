@@ -1,7 +1,7 @@
 /*
- * 
+ *
  *  main.cpp
- *  
+ *
  * standard initialization procedures
  *  Created on: may 24, 2010
  *      Author: katrin.schmid
@@ -26,6 +26,7 @@ MStatus uninitializePlugin(MObject obj)
     MStatus result;
     MFnPlugin plugin(obj);
     result = plugin.deregisterNode(smoothDeformer::id);
-    
+
     return result;
 }
+

@@ -37,3 +37,4 @@ class Singleton
 };
 
 #endif /* SINGLETON_H_ */
+

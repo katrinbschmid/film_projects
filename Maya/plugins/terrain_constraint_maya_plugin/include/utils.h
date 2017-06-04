@@ -73,3 +73,4 @@ bool IsInBetween(T a_Min, T a_Max, T a_V)
 std::string Format(const char * a_Fmt, ...);
 
 #endif /* UTILS_H_ */
+

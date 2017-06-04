@@ -48,3 +48,4 @@ MStatus uninitializePlugin(MObject obj)
 #endif
    return status;
 }
+

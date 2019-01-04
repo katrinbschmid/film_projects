@@ -4,12 +4,10 @@
 * Mortal engines 2018 Tree/plant system https://youtu.be/fupYIggOq38
 * Xmen Apocalypse 2016 (Crowd system) https://youtu.be/fX6FKU86FPA
 * Deadpool 2016 (Environemts and destruction tools) https://youtu.be/ZIM1HydF9UA
-
-See my [About](/about/) page for details.   
-https://www.linkedin.com/in/katrinschmid/
+contact: https://www.linkedin.com/in/katrinschmid/
 
 ## Code for some older (mostly before 2011) projects over the last years 
-Maya
+## Maya
 
     `Height / Terrain constraint`_ for Maya, C++
 
@@ -28,24 +26,26 @@ alternate text
     Cell noise texture for Maya, python API
     TextureChecker for Kickstand openPipeline (2009) or "plain Maya", pyQT gui
 
-Houdini
+## Houdini
 
     Technodolly camera crane data translator (command line), User docs (.pdf)
 
 alternate text
 
     Mantra procedural (2010)
+    
+See my [About](/about/) page for details.  
 
 alternate text
 
     VEX Shading procedural road
 
 alternate text
-Nuke (2011)
+## Nuke (2011)
 
     Cell noise node, C ++
 
 alternate text
-Renderman (2009/10)
+## Renderman RSL (2009/10)
 
     Simple soap bubble shader, RSL

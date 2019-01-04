@@ -35,3 +35,5 @@ alternate text
 ###  Renderman, RSL (2009/10)
 
      * [Simple soap bubble shader](./Renderman/Shader/soapBubble/), RSL
+     * [Contribution guidelines for this project](docs/CONTRIBUTING.md)
+     * [Contribution guidelines for this project](tree/develop/Maya/plugins/deformer)

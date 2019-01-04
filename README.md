@@ -2,10 +2,12 @@
 
 ## Public trailer that feature my professional work (2015-2018)
 
-     *Mortal engines 2018 Tree/plant system 
+     -Mortal engines 2018 Tree/plant system 
         https://youtu.be/fupYIggOq38
-     *Xmen Apocalypse 2016 (Crowd system) https://youtu.be/fX6FKU86FPA
-     *Deadpool 2016 (Environemts and destruction tools) https://youtu.be/ZIM1HydF9UA
+     -Xmen Apocalypse 2016 (Crowd system) 
+        https://youtu.be/fX6FKU86FPA
+     -Deadpool 2016 (Environemts and destruction tools) 
+        https://youtu.be/ZIM1HydF9UA
 
 Contact: https://www.linkedin.com/in/katrinschmid
 
@@ -16,10 +18,11 @@ Contact: https://www.linkedin.com/in/katrinschmid
        A Y-axis terrain constraint that uses Maya’s raytrace api for crowds in the view port.
         Last tested with Maya 2015.
         Includes test scene up in test/data and visual studio project
+       * Maya/plugins/
      *Paintable smooth deformer for Maya, C ++
-       *https://github.com/katrinbschmid/film_projects/tree/develop/Maya/plugins/deformer/
+       * Maya/plugins/deformer/
        This site was built using [GitHub Pages](https://pages.github.com/).
-       *There is also a version of this deformer on github maintained by david behren target https://github.com/davidrbehrens/maya 
+       *There is also a version of this deformer on github maintained by david behren https://github.com/davidrbehrens/maya 
      *Cell noise texture for Maya, python API
      *TextureChecker for Kickstand openPipeline (2009) or "plain Maya", pyQT gui
 
@@ -32,7 +35,7 @@ Contact: https://www.linkedin.com/in/katrinschmid
 
 ###  Nuke (2011)
 
-    *Cell noise node, C ++
+    -Cell noise node, C ++
 
 ###  Renderman, RSL (2009/10)
 

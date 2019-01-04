@@ -22,17 +22,17 @@ Contact: https://www.linkedin.com/in/katrinschmid
        A Y-axis terrain constraint that uses Maya’s raytrace api for crowds in the view port.
         Last tested with Maya 2015.
         Includes test scene up in test/data and visual studio project
-       *[Source] (Maya/plugins/)
+       *[Source] (Maya/plugins/terrain_constraint_maya_plugin)
        
 -Paintable smooth deformer for Maya, C ++
-       * [Source] (Maya/plugins/)
+       * [Source] (Maya/plugins/deformer)
        *There is also a version of this deformer on github maintained by david behren https://github.com/davidrbehrens/maya 
        
 -Cell noise texture for Maya, python API
-[Source] (Maya/plugins/)
+[Source] (Maya/plugins/texture)
      
 -TextureChecker for Kickstand openPipeline (2009) or "plain Maya", pyQT gui
-[Source] (Maya/plugins/)
+[Source] (Maya/scripts/python/TextureChecker)
 
 ###  Houdini
 
@@ -41,12 +41,11 @@ Contact: https://www.linkedin.com/in/katrinschmid
       
 -Mantra procedural (2010) [Source](Houdini/dso/mantra/)
 
--VEX Shading procedural: Layered Road shader [Source)](Houdini/python/cgiToChan_doc.pdf)
+-VEX Shading procedural: Layered Road shader [Source](Houdini/python/cgiToChan_doc.pdf)
 
 ###  Nuke (2011)
 
 -Cell noise node, C ++
-
 [Source](Renderman/Shader/soapBubble/)
 
 ###  Renderman, RSL (2009/10)

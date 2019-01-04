@@ -31,17 +31,18 @@ Contact: https://www.linkedin.com/in/katrinschmid
 
 ###  Houdini
 
-     *Technodolly camera crane data translator 
-      command line, [User docs (.pdf), Houdini/python/cgiToChan_doc.pdf
-     *Mantra procedural (2010)
-     *VEX Shading procedural: Layered road shader
+-Technodolly camera crane data translator 
+      command line, [User docs (.pdf)](Houdini/python/cgiToChan_doc.pdf)
+-Mantra procedural (2010) [User docs (.pdf)](Houdini/python/cgiToChan_doc.pdf)
+-VEX Shading procedural: Layered Road shader [User docs (.pdf)](Houdini/python/cgiToChan_doc.pdf)
 
 ###  Nuke (2011)
 
     -Cell noise node, C ++
 
 ###  Renderman, RSL (2009/10)
+
 -Simple soap bubble shader, RSL
-      *[Renderman/Shader/soapBubble/](Renderman/Shader/soapBubble/)
+[Renderman/Shader/soapBubble/](Renderman/Shader/soapBubble/)
 
 

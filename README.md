@@ -2,14 +2,14 @@
 
 ## Public trailer that feature my professional work (2015-2018)
 
--Mortal engines 2018 Tree/plant system 
-        https://youtu.be/fupYIggOq38
+- Mortal engines 2018 Tree/plant system 
+https://youtu.be/fupYIggOq38
         
--Xmen Apocalypse 2016 (Crowd system) 
-        https://youtu.be/fX6FKU86FPA
+- Xmen Apocalypse 2016 (Crowd system) 
+https://youtu.be/fX6FKU86FPA
         
--Deadpool 2016 (Environemts and destruction tools) 
-        https://youtu.be/ZIM1HydF9UA
+- Deadpool 2016 (Environemts and destruction tools) 
+https://youtu.be/ZIM1HydF9UA
         
 
 Contact: https://www.linkedin.com/in/katrinschmid

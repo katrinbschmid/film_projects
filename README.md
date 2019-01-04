@@ -1,4 +1,4 @@
-# film_projects
+# Code for some film projects
 
 #Public trailer that feature my professional work (2015-2018)
 * Mortal engines 2018 Tree/plant system https://youtu.be/fupYIggOq38
@@ -7,45 +7,41 @@
 contact: https://www.linkedin.com/in/katrinschmid/
 
 ## Code for some older (mostly before 2011) projects over the last years 
-## Maya
+### Maya
 
     `Height / Terrain constraint`_ for Maya, C++
 
-Y-axis terrain constraint that uses Maya’s raytrace api for crowds in the view port.
+  * Y-axis terrain constraint that uses Maya’s raytrace api for crowds in the view port.
 
         Last tested with Maya 2015.
         Includes test scene up in test/data and visual studio project
 
 alternate text
 
-    `Paintable smooth deformer`_ for Maya, C ++
-        There is also a version of this deformer on github maintained by david behren target https://github.com/davidrbehrens/maya 
+   * Paintable smooth deformer`_ for Maya, C ++
+    There is also a version of this deformer on github maintained by david behren target https://github.com/davidrbehrens/maya 
 
 alternate text
 
     Cell noise texture for Maya, python API
     TextureChecker for Kickstand openPipeline (2009) or "plain Maya", pyQT gui
 
-## Houdini
+###  Houdini
 
-    Technodolly camera crane data translator (command line), User docs (.pdf)
-
-alternate text
-
-    Mantra procedural (2010)
+     * Technodolly camera crane data translator (command line), User docs (.pdf)
+     * Mantra procedural (2010)
     
 See my [About](/about/) page for details.  
 
 alternate text
 
-    VEX Shading procedural road
+     * VEX Shading procedural road
+
+###  Nuke (2011)
+
+    *  Cell noise node, C ++
 
 alternate text
-## Nuke (2011)
+###  Renderman RSL (2009/10)
 
-    Cell noise node, C ++
-
-alternate text
-## Renderman RSL (2009/10)
-
-    Simple soap bubble shader, RSL
+     * Simple soap bubble shader, RSL

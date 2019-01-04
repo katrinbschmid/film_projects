@@ -16,7 +16,8 @@ Contact: https://www.linkedin.com/in/katrinschmid
         Last tested with Maya 2015.
         Includes test scene up in test/data and visual studio project
      *Paintable smooth deformer for Maya, C ++
-       *https://github.com/katrinbschmid/film_projects/tree/develop/Maya/plugins/deformer
+       *https://github.com/katrinbschmid/film_projects/tree/develop/Maya/plugins/deformer/
+       This site was built using [GitHub Pages](https://pages.github.com/).
        *There is also a version of this deformer on github maintained by david behren target https://github.com/davidrbehrens/maya 
      *Cell noise texture for Maya, python API
      *TextureChecker for Kickstand openPipeline (2009) or "plain Maya", pyQT gui
@@ -36,4 +37,4 @@ alternate text
 ###  Renderman, RSL (2009/10)
 
      *Simple soap bubble shader, RSL
-      *https://github.com/katrinbschmid/film_projects/tree/develop/Renderman/Shader/soapBubble
+      *https://github.com/katrinbschmid/film_projects/tree/develop/Renderman/Shader/soapBubble/

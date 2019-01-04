@@ -19,14 +19,14 @@ Contact: https://www.linkedin.com/in/katrinschmid
 ### Maya
 
 -Height / Terrain/ Y axis constraint for Maya, C++
-       A Y-axis terrain constraint that uses Maya’s raytrace api for crowds in the view port.
-        Last tested with Maya 2015.
-        Includes test scene up in test/data and visual studio project
-       *[Source] (Maya/plugins/terrain_constraint_maya_plugin)
+ A Y-axis terrain constraint that uses Maya’s raytrace api for crowds in the view port.
+Last tested with Maya 2015.
+Includes test scene up in test/data and visual studio project
+[Source] (Maya/plugins/terrain_constraint_maya_plugin)
        
 -Paintable smooth deformer for Maya, C ++
-       * [Source] (Maya/plugins/deformer)
-       *There is also a version of this deformer on github maintained by david behren https://github.com/davidrbehrens/maya 
+[Source] (Maya/plugins/deformer)
+*There is also a version of this deformer on github maintained by david behren https://github.com/davidrbehrens/maya 
        
 -Cell noise texture for Maya, python API
 [Source] (Maya/plugins/texture)
@@ -37,7 +37,7 @@ Contact: https://www.linkedin.com/in/katrinschmid
 ###  Houdini
 
 -Technodolly camera crane data translator 
-      command line, [User docs (.pdf)](Houdini/python/cgiToChan_doc.pdf)
+      Command line, [User docs (.pdf)](Houdini/python/cgiToChan_doc.pdf)
       
 -Mantra procedural (2010) [Source](Houdini/dso/mantra/)
 
@@ -51,6 +51,6 @@ Contact: https://www.linkedin.com/in/katrinschmid
 ###  Renderman, RSL (2009/10)
 
 -Simple soap bubble shader, RSL
-[Renderman/Shader/soapBubble/](Renderman/Shader/soapBubble/)
+[Source](Renderman/Shader/soapBubble/)
 
 

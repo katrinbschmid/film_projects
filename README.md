@@ -26,7 +26,7 @@ Contact: https://www.linkedin.com/in/katrinschmid
 ###  Houdini
 
      *Technodolly camera crane data translator 
-     (command line), [User docs (.pdf)](Houdini/python/cgiToChan_doc.pdf)
+      command line, [User docs (.pdf), Houdini/python/cgiToChan_doc.pdf
      *Mantra procedural (2010)
      *VEX Shading procedural: Layered road shader
 
@@ -37,44 +37,6 @@ Contact: https://www.linkedin.com/in/katrinschmid
 ###  Renderman, RSL (2009/10)
 
      *Simple soap bubble shader, RSL
-      *https://github.com/katrinbschmid/film_projects/tree/develop/Renderman/Shader/soapBubble/
-
-     [I'm an inline-style link](https://www.google.com)
-     [I'm an inline-style link with title](https://www.google.com "Google's Homepage")
-
-     [I'm a reference-style link][Arbitrary case-insensitive reference text]
+      *Renderman/Shader/soapBubble/
 
 
-     [I'm a relative reference to a repository file](../blob/master/LICENSE)
-
-
-     *[You can use numbers for reference-style link definitions][1]
-
-* Oh look, it's some [Apache config](http://pygments.org/docs/lexers/#lexers-for-non-source-code-file-types):
-
-    ```apache
-    <Directory /foo/bar>
-      Order allow,deny
-      Deny from all
-           [I'm an inline-style link](https://www.google.com)
-     [I'm an inline-style link with title](https://www.google.com "Google's Homepage")
-
-     [I'm a reference-style link][Arbitrary case-insensitive reference text]
-
-
-     [I'm a relative reference to a repository file](../blob/master/LICENSE)
-    </Directory>
-    ```
-    
-Or leave it empty and use the [link text itself].
-
-URLs and URLs in angle brackets will automatically get turned into links. 
-http://www.example.com or <http://www.example.com> and sometimes 
-example.com (but not on Github, for example).
-
-Some text to show that the reference links can follow later.
-
-
-     *[arbitrary case-insensitive reference text]: https://www.mozilla.org
-[1]: http://slashdot.org
-[link text itself]: http://www.reddit.com

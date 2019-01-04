@@ -11,14 +11,14 @@ Contact: https://www.linkedin.com/in/katrinschmid
 ## Code for some older (mostly before 2011) projects over the last years 
 ### Maya
 
-* Height / Terrain/ Y axis constraint for Maya, C++
+     *Height / Terrain/ Y axis constraint for Maya, C++
  A Y-axis terrain constraint that uses Maya’s raytrace api for crowds in the view port.
         Last tested with Maya 2015.
         Includes test scene up in test/data and visual studio project
-   * Paintable smooth deformer for Maya, C ++
+     * Paintable smooth deformer for Maya, C ++
     There is also a version of this deformer on github maintained by david behren target https://github.com/davidrbehrens/maya 
-   * Cell noise texture for Maya, python API
-   * TextureChecker for Kickstand openPipeline (2009) or "plain Maya", pyQT gui
+     * Cell noise texture for Maya, python API
+     * TextureChecker for Kickstand openPipeline (2009) or "plain Maya", pyQT gui
 
 ###  Houdini
 

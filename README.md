@@ -50,6 +50,22 @@ Contact: https://www.linkedin.com/in/katrinschmid
 
      *[You can use numbers for reference-style link definitions][1]
 
+* Oh look, it's some [Apache config](http://pygments.org/docs/lexers/#lexers-for-non-source-code-file-types):
+
+    ```apache
+    <Directory /foo/bar>
+      Order allow,deny
+      Deny from all
+           [I'm an inline-style link](https://www.google.com)
+     [I'm an inline-style link with title](https://www.google.com "Google's Homepage")
+
+     [I'm a reference-style link][Arbitrary case-insensitive reference text]
+
+
+     [I'm a relative reference to a repository file](../blob/master/LICENSE)
+    </Directory>
+    ```
+    
 Or leave it empty and use the [link text itself].
 
 URLs and URLs in angle brackets will automatically get turned into links. 

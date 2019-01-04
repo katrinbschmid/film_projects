@@ -34,4 +34,4 @@ Contact: https://www.linkedin.com/in/katrinschmid
 alternate text
 ###  Renderman, RSL (2009/10)
 
-     * Simple soap bubble shader](/Renderman/Shader/soapBubble), RSL
+     * [Simple soap bubble shader](./Renderman/Shader/soapBubble/), RSL

@@ -5,7 +5,8 @@
 * Xmen Apocalypse 2016 (Crowd system) https://youtu.be/fX6FKU86FPA
 * Deadpool 2016 (Environemts and destruction tools) https://youtu.be/ZIM1HydF9UA
 
-
+See my [About](/about/) page for details.   
+https://www.linkedin.com/in/katrinschmid/
 
 ## Code for some older (mostly before 2011) projects over the last years 
 Maya

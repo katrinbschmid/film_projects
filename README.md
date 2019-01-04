@@ -41,8 +41,7 @@ Contact: https://www.linkedin.com/in/katrinschmid
     -Cell noise node, C ++
 
 ###  Renderman, RSL (2009/10)
-
-     *Simple soap bubble shader, RSL
-      *Renderman/Shader/soapBubble/
+-Simple soap bubble shader, RSL
+      *[Renderman/Shader/soapBubble/](Renderman/Shader/soapBubble/)
 
 

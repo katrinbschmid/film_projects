@@ -2,13 +2,13 @@
 
 ## Public trailer that feature my professional work (2015-2018)
 
-- Mortal engines 2018 Tree/plant system 
+- **Mortal engines** 2018 Tree/plant system 
 https://youtu.be/fupYIggOq38
         
-- Xmen Apocalypse 2016 (Crowd system) 
+- **Xmen Apocalypse** 2016 (Crowd system) 
 https://youtu.be/fX6FKU86FPA
         
-- Deadpool 2016 (Environemts and destruction tools) 
+- **Deadpool** 2016 (Environemts and destruction tools) 
 https://youtu.be/ZIM1HydF9UA
         
 
@@ -28,7 +28,7 @@ A Y-axis terrain constraint that uses Maya’s raytrace api for crowds in the vi
 -**Paintable smooth deformer for Maya**, C ++
 [Source](Maya/plugins/deformer/)
 
-*There is also a version of this deformer on github maintained by david behren https://github.com/davidrbehrens/maya 
+There is also a version of this deformer on github maintained by david behren https://github.com/davidrbehrens/maya 
 
 
 -**Cell noise texture for Maya**, Python API
@@ -43,19 +43,19 @@ A Y-axis terrain constraint that uses Maya’s raytrace api for crowds in the vi
 -**Technodolly camera crane data translator**
 Command line, [User docs (.pdf)](Houdini/python/cgiToChan_doc.pdf)
       
--Mantra procedural (2010), [Source](Houdini/dso/mantra/)
+-**Mantra geo procedural** (2010), [Source](Houdini/dso/mantra/)
 
--VEX Shading procedural: Layered Road shader, [Source](Houdini/python/cgiToChan_doc.pdf)
+-VEX Shading procedural: **Layered Road shader**, [Source](Houdini/python/cgiToChan_doc.pdf)
 
 
 ###  Nuke (2011)
 
--Cell noise node, C ++,
+-**Cell noise node**, C ++,
 [Source](Renderman/Shader/soapBubble/)
 
 ###  Renderman, RSL (2009/10)
 
--Simple soap bubble shader, RSL,
+-**Simple soap bubble shader**, RSL,
 [Source](Renderman/Shader/soapBubble/)
 
 

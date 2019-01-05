@@ -27,6 +27,7 @@ A Y-axis terrain constraint that uses Maya’s raytrace api for crowds in the vi
 
 -Paintable smooth deformer for Maya, C ++
 [Source](Maya/plugins/deformer/)
+
 *There is also a version of this deformer on github maintained by david behren https://github.com/davidrbehrens/maya 
 
 
@@ -42,19 +43,19 @@ A Y-axis terrain constraint that uses Maya’s raytrace api for crowds in the vi
 -Technodolly camera crane data translator 
 Command line, [User docs (.pdf)](Houdini/python/cgiToChan_doc.pdf)
       
--Mantra procedural (2010) [Source](Houdini/dso/mantra/)
+-Mantra procedural (2010), [Source](Houdini/dso/mantra/)
 
--VEX Shading procedural: Layered Road shader [Source](Houdini/python/cgiToChan_doc.pdf)
+-VEX Shading procedural: Layered Road shader, [Source](Houdini/python/cgiToChan_doc.pdf)
 
 
 ###  Nuke (2011)
 
--Cell noise node, C ++
+-Cell noise node, C ++,
 [Source](Renderman/Shader/soapBubble/)
 
 ###  Renderman, RSL (2009/10)
 
--Simple soap bubble shader, RSL
+-Simple soap bubble shader, RSL,
 [Source](Renderman/Shader/soapBubble/)
 
 

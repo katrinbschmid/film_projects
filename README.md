@@ -20,15 +20,16 @@ Contact: https://www.linkedin.com/in/katrinschmid
        
 -Height / Terrain/ Y axis constraint for Maya, C++ [Source](Maya/plugins/terrain_constraint_maya_plugin)
 
-   A Y-axis terrain constraint that uses Maya’s raytrace api for crowds in the view port.
+A Y-axis terrain constraint that uses Maya’s raytrace api for crowds in the view port.
    Last tested with Maya 2015.
    Includes test scene up in test/data and visual studio project
 
+
 -Paintable smooth deformer for Maya, C ++
 [Source](Maya/plugins/deformer/)
+*There is also a version of this deformer on github maintained by david behren https://github.com/davidrbehrens/maya 
 
-    *There is also a version of this deformer on github maintained by david behren https://github.com/davidrbehrens/maya 
-       
+
 -Cell noise texture for Maya, python API
 [Source](Maya/plugins/texture/)
   

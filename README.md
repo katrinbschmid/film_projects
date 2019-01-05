@@ -18,29 +18,29 @@ Contact: https://www.linkedin.com/in/katrinschmid
 ## Code for some older (mostly before 2011) projects over the last years 
 ### Maya
        
--Height / Terrain/ Y axis constraint for Maya, C++ [Source](Maya/plugins/terrain_constraint_maya_plugin)
+-**Height / Terrain/ Y axis constraint for Maya**, C++ [Source](Maya/plugins/terrain_constraint_maya_plugin)
 
 A Y-axis terrain constraint that uses Maya’s raytrace api for crowds in the view port.
    Last tested with Maya 2015.
    Includes test scene up in test/data and visual studio project
 
 
--Paintable smooth deformer for Maya, C ++
+-**Paintable smooth deformer for Maya**, C ++
 [Source](Maya/plugins/deformer/)
 
 *There is also a version of this deformer on github maintained by david behren https://github.com/davidrbehrens/maya 
 
 
--Cell noise texture for Maya, python API
+-**Cell noise texture for Maya**, Python API
 [Source](Maya/plugins/texture/)
   
--TextureChecker for Kickstand openPipeline (2009) or "plain Maya", pyQT gui
+-**TextureChecker** for Kickstand openPipeline (2009) or "plain Maya", pyQT gui
 [Source](Maya/scripts/python/TextureChecker)
 
 
 ###  Houdini
 
--Technodolly camera crane data translator 
+-**Technodolly camera crane data translator**
 Command line, [User docs (.pdf)](Houdini/python/cgiToChan_doc.pdf)
       
 -Mantra procedural (2010), [Source](Houdini/dso/mantra/)

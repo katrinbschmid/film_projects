@@ -24,17 +24,13 @@ A Y-axis terrain constraint that uses Maya’s raytrace api for crowds in the vi
 Last tested with Maya 2015.
 Includes test scene up in test/data and visual studio project
 
--Cell noise node, C ++
+Paintable smooth deformer for Maya, C ++
 [Source](Renderman/Shader/soapBubble/)
-[Source] (Maya/plugins/deformer)
-
--Paintable smooth deformer for Maya, C ++
-[Source] (Maya/plugins/deformer)
-
+[Source] (Maya/plugins/deformer/)
 *There is also a version of this deformer on github maintained by david behren https://github.com/davidrbehrens/maya 
        
 -Cell noise texture for Maya, python API
-[Source] (Maya/plugins/texture)
+[Source] (Maya/plugins/texture/)
   
 -TextureChecker for Kickstand openPipeline (2009) or "plain Maya", pyQT gui
 [Source] (Maya/scripts/python/TextureChecker)

@@ -19,10 +19,8 @@ Contact: https://www.linkedin.com/in/katrinschmid
 ### Maya
 
 -Height / Terrain/ Y axis constraint for Maya, C++
- A Y-axis terrain constraint that uses Maya’s raytrace api for crowds in the view port.
- 
+A Y-axis terrain constraint that uses Maya’s raytrace api for crowds in the view port.
 Last tested with Maya 2015.
-
 Includes test scene up in test/data and visual studio project
 
 [Source] (Maya/plugins/terrain_constraint_maya_plugin)
@@ -38,14 +36,16 @@ Includes test scene up in test/data and visual studio project
 -TextureChecker for Kickstand openPipeline (2009) or "plain Maya", pyQT gui
 [Source] (Maya/scripts/python/TextureChecker)
 
+
 ###  Houdini
 
 -Technodolly camera crane data translator 
-      Command line, [User docs (.pdf)](Houdini/python/cgiToChan_doc.pdf)
+Command line, [User docs (.pdf)](Houdini/python/cgiToChan_doc.pdf)
       
 -Mantra procedural (2010) [Source](Houdini/dso/mantra/)
 
 -VEX Shading procedural: Layered Road shader [Source](Houdini/python/cgiToChan_doc.pdf)
+
 
 ###  Nuke (2011)
 

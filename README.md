@@ -24,7 +24,6 @@ A Y-axis terrain constraint that uses Maya’s raytrace api for crowds in the vi
    Last tested with Maya 2015.
    Includes test scene up in test/data and visual studio project
    ![Test scene](https://github.com/katrinbschmid/film_projects/blob/develop/Maya/plugins/terrain_constraint_maya_plugin/TerrainConstraint_screengrab.jpg)
-   
 
 -**Paintable smooth deformer for Maya**, C ++
 [Source](Maya/plugins/deformer/)
@@ -34,7 +33,9 @@ There is also a version of this deformer on github maintained by david behren ht
 
 -**Cell noise texture for Maya**, Python API
 [Source](Maya/plugins/texture/)
-  
+   ![Test scene](https://github.com/katrinbschmid/film_projects/blob/develop/Maya/plugins/terrain_constraint_maya_plugin/TerrainConstraint_screengrab.jpg)
+
+
 -**TextureChecker** for Kickstand openPipeline (2009) or "plain Maya", pyQT gui
 [Source](Maya/scripts/python/TextureChecker)
 
@@ -47,16 +48,19 @@ Command line, [User docs (.pdf)](Houdini/python/cgiToChan_doc.pdf)
 -**Mantra geo procedural** (2010), [Source](Houdini/dso/mantra/)
 
 -VEX Shading procedural: **Layered Road shader**, [Source](Houdini/python/cgiToChan_doc.pdf)
-
+   ![Test scene](https://github.com/katrinbschmid/film_projects/blob/develop/Houdini/street.jpg)
 
 ###  Nuke (2011)
 
 -**Cell noise node**, C ++,
 [Source](Renderman/Shader/soapBubble/)
+![Node](https://github.com/katrinbschmid/film_projects/blob/develop/NuKe/street.jpg)
+
 
 ###  Renderman, RSL (2009/10)
 
 -**Simple soap bubble shader**, RSL,
 [Source](Renderman/Shader/soapBubble/)
+   ![Test scene](https://github.com/katrinbschmid/film_projects/blob/develop/Renderman/sBubble.jpg)
 
 

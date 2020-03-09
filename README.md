@@ -23,7 +23,8 @@ Contact: https://www.linkedin.com/in/katrinschmid
 A Y-axis terrain constraint that uses Maya’s raytrace api for crowds in the view port.
    Last tested with Maya 2015.
    Includes test scene up in test/data and visual studio project
-
+   ![Test scene](https://github.com/katrinbschmid/film_projects/blob/develop/Maya/plugins/terrain_constraint_maya_plugin/TerrainConstraint_screengrab.jpg)
+   
 
 -**Paintable smooth deformer for Maya**, C ++
 [Source](Maya/plugins/deformer/)

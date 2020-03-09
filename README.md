@@ -33,8 +33,6 @@ There is also a version of this deformer on github maintained by david behren ht
 
 -**Cell noise texture for Maya**, Python API
 [Source](Maya/plugins/texture/)
-   ![Test scene](https://github.com/katrinbschmid/film_projects/blob/develop/Maya/plugins/terrain_constraint_maya_plugin/TerrainConstraint_screengrab.jpg)
-
 
 -**TextureChecker** for Kickstand openPipeline (2009) or "plain Maya", pyQT gui
 [Source](Maya/scripts/python/TextureChecker)
@@ -61,6 +59,7 @@ Command line, [User docs (.pdf)](Houdini/python/cgiToChan_doc.pdf)
 
 -**Simple soap bubble shader**, RSL,
 [Source](Renderman/Shader/soapBubble/)
+
    ![Test scene](https://github.com/katrinbschmid/film_projects/blob/develop/Renderman/sBubble.jpg)
 
 
